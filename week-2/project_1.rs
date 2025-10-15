@@ -8,5 +8,5 @@ fn main() {
 	println!("Amount is {}", a);
 	let ci = a - p;
 	println!("compound interest is {}", ci);
-	
+
 }
