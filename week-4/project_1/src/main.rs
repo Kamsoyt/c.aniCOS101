@@ -10,7 +10,7 @@ fn main()
 
     println!("Enter the value for a:");
     io::stdin().read_line(&mut input1).expect("Not a valid String");
-    let a:f32 = input1.trim().parse().expect("Not a valid String");
+    let a:f32 = input1.trim().parse().expect("Not a valid number");
 
     println!("Enter the value for b:");
     io::stdin().read_line(&mut input2).expect("Not a valid String");
